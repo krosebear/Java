@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant-menu>
+    <display-name>Breakfast and Dinner Menu</display-name>
+
+    <servlet>
+        <servlet-name>Breakfast</servlet-name>
+        <servlet-class category="bMenuItems"></servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>**insert Breakfast Menu Items</servlet-name>
+        <url-pattern>/xmlServletpathBreakfast</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name></servlet-name>
+        <servlet-class category="dMenuItems"></servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>**insert Dinner Menu Items</servlet-name>
+        <url-pattern>/xmlServletpathDinner</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</restaurant-menu>

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+  background: repeating-linear-gradient(#000000, #b4b4b4);
+  color: white;
+}
+table{
+  text-align: center;
+}
+/* unvisited link */
+a:link {
+    color: #1a63d8;
+}
+
+/* visited link */
+a:visited {
+    color: #a1aec4;
+}
+
+/* mouse over link */
+a:hover {
+    color: #a4a6aa;
+}
